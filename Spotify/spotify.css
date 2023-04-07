@@ -1,0 +1,81 @@
+/* *{
+    border: 1px solid gray;
+} */
+.nav-link{
+   color:white
+}
+.nav-link:hover{
+    color: rgb(11, 182, 80);
+}
+.parent-pic{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.pic-1{
+    position: relative;
+    top: 25;
+    left: 0;
+    height: 450px;
+    overflow:hidden;
+}
+.pic-2{
+    position: absolute;
+    top: 100;
+    left: 143;
+    width: 160px;
+    height: 300px;
+}
+.bg-success{
+   min-height: 400px;
+}
+.btn:hover{
+    width: 200px;
+    height: 50px;
+}
+.free{
+    height: 500px;
+}
+.free h1{
+    margin-top: 150px;
+    font-size: 70px;
+}
+.last{
+    height: 500px; 
+}
+.last h1{
+    font-size: 70px;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.foot-h{
+    line-height: 50px;
+    cursor: pointer;
+}
+.foot-h li:hover{
+    color:rgb(11, 182, 80) ;
+}
+.foot-ic,.bi:hover{
+    color:rgb(11, 182, 80) ;
+    cursor: pointer;
+}
+.foot-end:hover{
+    color:rgb(11, 182, 80) ;
+    cursor: pointer;
+}
+
+
+.bg-success{
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and  (max-width: 768px) {
+    .fot a{
+        font-size: xx-small;
+    }
+}
+
